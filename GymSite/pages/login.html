@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./styles/register.css">
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="switcher">
+            <button id="Geo" onclick="translator('Ge')">GE</button>
+            <button id="En" onclick="translator('En')">EN</button>
+        </div>
+
+        <div class="bottom-header">
+            <div class="header-nav">
+                <nav class="bottom-nav">
+                    <ul>
+                        <li><a href="../index.html">მთავარი</a></li>
+                        <li><a href="./info.html">ინფორმაცია</a></li>
+                        <li><a href="./workout.html">ვარჯიშები</a></li>
+                        <li><a href="./food.html">კვება - დანამატები</a></li>
+                        <li><a href="./contact.html">კონტაქტი</a></li>
+                        <li style="margin-left: 2vh;">
+                            <a href="./login.html" style="color:#7cccf2;">
+                                <img src="../images/login.png" alt="" style="margin-right: 7px;">
+                                შესვლა
+                            </a>
+                        </li>
+                        <li><a href="../pages/register.html" style="padding-left: 10px;color: #7cccf2;">
+                            <img src="../images/register2.png" alt="" style="margin-right: 2px;">
+                            რეგისტრაცია</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>  
+    <div class="form-container">
+        <div class="name-div">
+            <span>სახელი ან მეილი</span>
+            <input type="text" id="loginname-input">
+        </div>
+        <div class="password-div" style="position: relative;">
+            <span>პაროლი</span>
+            <input type="password" id="loginpassword-input">
+            <span id="recover-span"><a href="#" id="recover-anchor">დაგავიწყდა?</a></span>
+        </div>
+        <div class="save-div" style="flex-direction: row;">
+            <input type="checkbox"><span id = "saver">დამახსოვრება</span>
+        </div>
+        <div class="loginbtn-div">
+            <button class="loginbtn-el">შესვლა</button>
+        </div>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>

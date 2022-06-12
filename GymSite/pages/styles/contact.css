@@ -1,0 +1,38 @@
+.container{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container div,.container div *{
+    display: flex;
+}
+
+.container div *{
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.instagram a{
+    color: #e81c82;
+}
+.facebook a{
+    color: #3b5998;
+}
+.tik-tok a{
+    color: #ccffff;
+}
+.mail a{
+    color: #d93f21;
+}
+.telephone a{
+    color: #2196f3;
+}
+
+@media (max-width:600px){
+    .container{
+        margin-top: 200px;
+        width: fit-content;
+    }
+}

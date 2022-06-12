@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./styles/info.css">
+    <link rel="stylesheet" href="./styles/workout.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="switcher">
+            <button id="Geo" onclick="translator('Ge')">GE</button>
+            <button id="En" onclick="translator('En')">EN</button>
+        </div>
+        <div class="bottom-header">
+            <div class="header-nav">
+                <nav class="bottom-nav">
+                    <ul>
+                        <li><a href="../index.html">მთავარი</a></li>
+                        <li><a href="./info.html">ინფორმაცია</a></li>
+                        <li><a href="./workout.html">ვარჯიშები</a></li>
+                        <li><a href="./food.html">კვება - დანამატები</a></li>
+                        <li><a href="./contact.html">კონტაქტი</a></li>
+                        <li style="margin-left: 2vh;">
+                            <a href="./login.html" style="color:#7cccf2;">
+                                <img src="../images/login.png" alt="" style="margin-right: 7px;">
+                                შესვლა
+                            </a>
+                        </li>
+                        <li><a href="./register.html" style="padding-left: 10px;color: #7cccf2;">
+                            <img src="../images/register2.png" alt="" style="margin-right: 2px;">
+                            რეგისტრაცია</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>  
+    <main>
+        <span class="headers"><img src="./images/workout/chest.png" alt=""> მკერდის ვარჯიშები <span style="color: white;margin-left:10px;">(დააკლიკე ვიდეოსთვის)</span></span>
+        <div class="chest-div">
+            <div class="chest-x">
+                <span>Bench Press</span>
+            </div>
+            <div class="chest-x">
+                <span style="font-size:1.3em;">Incline Bench Press</span>
+            </div>
+            <div class="chest-x">
+                <span>Dips</span>
+            </div>
+            <div class="chest-x">
+                <span>Push Ups</span>
+            </div>
+            <div class="chest-x">
+                <span style="font-size:1.3em;">Incline dumbbell Press</span>
+            </div>
+        </div>
+        <span class="headers"><img src="./images/workout/biceps.png" alt=""> ბიცეფსის ვარჯიშები</span>
+        <div class="biceps-div">
+            <div class="biceps-x">
+                <span>Dumbbell Curl</span>
+            </div>
+            <div class="biceps-x">
+                <span>Hammer Curl</span>
+            </div>
+            <div class="biceps-x">
+                <span style="font-size:1.3em;">Incline Dumbbell Curl</span>
+            </div>
+            <div class="biceps-x">
+                <span>Barbell Curl</span>
+            </div>
+            <div class="biceps-x">
+                <span>Preacher Curl</span>
+            </div>
+        </div>
+        <span class="headers"><img src="./images/workout/triceps.png" alt=""> ტრიცეფსის ვარჯიშები</span>
+        <div class="triceps-div">
+            <div class="triceps-x">
+                <span>Bench Dips</span>
+            </div>
+            <div class="triceps-x">
+                <span>Rope Pushdown</span>
+            </div>
+            <div class="triceps-x">
+                <span>Skull Crushers</span>
+            </div>
+            <div class="triceps-x">
+                <span>Dumbbell Kickback</span>
+            </div>
+            <div class="triceps-x">
+                <span>Narrow Push Ups</span>
+            </div>
+        </div>
+        <span class="headers"><img src="./images/workout/shoulder.png" alt=""> მხრის ვარჯიშები</span>
+        <div class="shoulder-div">
+            <div class="shoulder-x">
+                <span>Barbell Press</span>
+            </div>
+            <div class="shoulder-x">
+                <span>Dumbbell Press</span>
+            </div>
+            <div class="shoulder-x">
+                <span>Dumbbell Raise</span>
+            </div>
+            <div class="shoulder-x">
+                <span style="font-size: 1.3em;">Bent Over Dumbbell Raise</span>
+            </div>
+            <div class="shoulder-x">
+                <span>Arnold Press</span>
+            </div>
+        </div>
+        <span class="headers"><img src="./images/workout/back.png" alt=""><img src="./images/workout/trapezius.png" alt=""> ზურგის და ტრაპეციის ვარჯიშები</span>
+        <div class="back-div">
+            <div class="back-x">
+                <span>Bent Over Row</span>
+            </div>
+            <div class="back-x">
+                <span>Barbell Shrugs</span>
+            </div>
+            <div class="back-x">
+                <span>Cable Pulldown</span>
+            </div>
+            <div class="back-x">
+                <span style="font-size: 1.3em;">Over Back Cable Pulldown</span>
+            </div>
+            <div class="back-x">
+                <span style="font-size: 1.3em;">Revers Grip Cable Pulldown</span>
+            </div>
+        </div>
+        <span class="headers"><img src="./images/workout/leg.png" alt=""><img src="./images/workout/calves.png" alt=""> ფეხის ვარჯიშები</span>
+        <div class="leg-div">
+            <div class="leg-x">
+                <span>Squats</span>
+            </div>
+            <div class="leg-x">
+                <span>Leg Press</span>
+            </div>
+            <div class="leg-x">
+                <span>Calf Raises</span>
+            </div>
+            <div class="leg-x">
+                <span>Leg Extensions</span>
+            </div>
+            <div class="leg-x">
+                <span>Dumbbell Step Ups</span>
+            </div>
+        </div>
+
+    </main>
+    <script src="./js/workout.js"></script>
+</body>
+</html>

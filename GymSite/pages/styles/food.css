@@ -1,0 +1,42 @@
+
+
+main > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5vh;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main > div >div{
+    display: flex;
+    border: solid white 1px;
+    position: relative;
+    height: 30vh;
+    width: 20%;
+    cursor: pointer;
+    align-items: flex-end;
+    justify-content: center;
+    background-position: center;
+}
+
+
+@media (max-width:600px){
+    main div{
+        flex-direction: row;
+    }
+    main div div{
+        width: 100%;
+    }
+}
+@media (min-width: 601px) and (max-width:1300px) {
+    /* For tablets: */
+    main div{
+        flex-direction: row;
+    }
+    main div div{
+        width: 100%;
+    }
+
+}

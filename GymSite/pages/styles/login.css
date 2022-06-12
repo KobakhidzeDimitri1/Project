@@ -1,0 +1,36 @@
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/tee.png);
+    background-size: cover
+}
+.form-container{
+    margin-top: 50px;
+}
+.save-div{
+    align-items: center;
+}
+#recover-span{
+    position: absolute;
+    bottom: 12%;
+    right: 20px;
+    font-weight: normal;
+}
+#recover-anchor{
+    color: black;
+    text-decoration: none;
+}
+
+
+@media (max-width:600px){
+    .form-container{
+        margin-top: 200px;
+        width: 100%;
+    }
+}
+@media (min-width: 601px) and (max-width:1300px) {
+    /* For tablets: */
+    .form-container{
+        margin-top: 200px;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,81 @@
+body{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/workout.png);
+    background-size: cover;
+    background-position-y: -50px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main > div{
+    display: flex;
+    gap: 5vh;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main > div >div{
+    display: flex;
+    border: solid white 1px;
+    position: relative;
+    height: 30vh;
+    width: 40vh;
+    cursor: pointer;
+    align-items: flex-end;
+    justify-content: center;
+    background-position: center;
+}
+
+
+main > span{
+    display: flex;
+    align-items: center;
+    color:  crimson;
+    font-size: 1.7em;
+    padding-left: 20px;
+    margin: 20px 0 20px 0;
+}
+main > span > img{
+    margin-right: 10px;
+}
+main > div > div span{
+    padding: 10px;
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    width: fit-content;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+@media (max-width:600px){
+    main{
+        margin-top: 250px;
+    }
+    main > *{
+        flex-direction: column;
+        justify-content: center;
+    }
+    main > div > div{
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) and (max-width:1300px) {
+    /* For tablets: */
+    main{
+        margin-top: 250px;
+    }
+    main > *{
+        flex-direction: column;
+        justify-content: center;
+    }
+    main > div > div{
+        justify-content: center;
+        width: 100%;
+    }
+
+}

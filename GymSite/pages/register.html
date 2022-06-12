@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/register.css">
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body>
+    <header class="main-header">
+
+        <div class="bottom-header">
+            <div class="header-nav">
+                <nav class="bottom-nav">
+                    <ul>
+                        <li><a href="../index.html">მთავარი</a></li>
+                        <li><a href="./info.html">ინფორმაცია</a></li>
+                        <li><a href="./workout.html">ვარჯიშები</a></li>
+                        <li><a href="./food.html">კვება - დანამატები</a></li>
+                        <li><a href="./contact.html">კონტაქტი</a></li>
+                        <li style="margin-left: 2vh;">
+                            <a href="./login.html" style="color:#7cccf2;">
+                                <img src="../images/login.png" alt="" style="margin-right: 7px;">
+                                შესვლა
+                            </a>
+                        </li>
+                        <li><a href="../pages/register.html" style="padding-left: 10px;color: #7cccf2;">
+                            <img src="../images/register2.png" alt="" style="margin-right: 2px;">
+                            რეგისტრაცია</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>    
+    <div class="form-container">
+        <div class="mail-div">
+            <span>მეილი</span>
+            <input type="text" id="mail-input">
+        </div>
+        <div class="username-div">
+            <span>ექაუნთის სახელი</span>
+            <input type="text" id="username-input">
+        </div>
+        <div class="password-div">
+            <span>პაროლი</span>
+            <input type="password" id="password-input">
+            <span class="difficulty"></span>
+        </div>
+        <div class="passwordcheck-div">
+            <span>დაადასტურეთ პაროლი</span>
+            <input type="password" id="passwordcheck-input">
+        </div>
+        <div class="phone-div">
+            <span>ტელეფონი</span>
+            <input type="tel" id="phone-input">
+        </div>
+        <div class="country-div">
+            <span>ქვეყანა</span>
+            <!-- <input type="text" id="country-input"> -->
+            <select name="Country" id="country-input">
+                <option value="Georgia">Georgia</option>
+                <option value="USA">USA</option>
+                <option value="France">France</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Germany">Germany</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="England">England</option>
+                <option value="Spain">Spain</option>
+            </select>
+        </div>
+        <div class="city-div">
+            <span>ქალაქი</span>
+            <input type="text" id="city-input">
+        </div>
+        <div class="country-div">
+            <span>რეგისტრაციის თარიღი (ავტომატურად)</span>
+            <span id="date-element"></span>
+        </div>
+        <div class="registerbtn-div">
+            <button class="registerbtn-el" id="registerbtn-el">რეგისტრაცია</button>
+        </div>
+    </div>
+
+    
+    <script src="./js/register.js"></script>
+</body>
+</html>

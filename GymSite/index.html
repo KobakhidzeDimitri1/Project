@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="switcher">
+            <button id="Geo" onclick="translator('Ge')">GE</button>
+            <button id="En" onclick="translator('En')">EN</button>
+        </div>
+        
+        <div class="bottom-header">
+            <div class="header-nav">
+                <nav class="bottom-nav">
+                    <ul>
+                        <li><a href="./index.html">მთავარი</a></li>
+                        <li><a href="./pages/info.html">ინფორმაცია</a></li>
+                        <li><a href="./pages/workout.html">ვარჯიშები</a></li>
+                        <li><a href="./pages/food.html">კვება - დანამატები</a></li>
+                        <li><a href="./pages/contact.html">კონტაქტი</a></li>
+                        <li id = "log-margin">
+                            <a href="./pages/login.html" style="color:#7cccf2;">
+                                <img src="./images/login.png" alt="" style="margin-right: 7px;">
+                                შესვლა
+                            </a>
+                        </li>
+                        <li><a href="./pages/register.html" style="padding-left: 10px;color: #7cccf2;">
+                            <img src="./images/register2.png" alt="" style="margin-right: 2px;">
+                            რეგისტრაცია</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="slider-div" id="slider">
+        <div id="slider-text">სწორი ვარჯიშის ფორმა</div>
+        <div class="slider-buttons">
+            <button id="button-1" class="button-x" style="background-color: red;" onclick="manualSliderChanging(1)"></button>
+            <button id="button-2" class="button-x" onclick="manualSliderChanging(2)"></button>
+            <button id="button-3" class="button-x" onclick="manualSliderChanging(3)"></button>
+            <button id="button-4" class="button-x" onclick="manualSliderChanging(4)"></button>
+            <button id="button-5" class="button-x" onclick="manualSliderChanging(5)"></button>
+        </div>
+    </div>
+  
+    
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>

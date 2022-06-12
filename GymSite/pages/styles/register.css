@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/registerpage3.png);
+    background-size: cover;
+
+    
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+    min-height: 50vh;
+    padding: 10px 50px 10px 50px;
+}
+.form-container div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 5vh;
+    /* border: solid blue 1px; */
+    padding: 5px 10px 5px 10px;
+}
+.form-container span,p{
+    color: white;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.form-container div input,#date-element,select{
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    height: 4vh;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1.2em;
+}
+#date-element{
+    margin: 0;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    padding-left: 10px;
+}
+.registerbtn-div,.loginbtn-div{
+    margin-top: 15px;
+}
+.registerbtn-el,.loginbtn-el{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    height: 5vh;
+    border: none;
+    border-radius: 7px;
+    background-color: #507fff;
+    color: white;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.form-container .error{
+    color: red;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 0.8em;
+}
+.succesful-div{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    height: 500px;
+    display: none;
+}
+
+.succesful-div .top-div,.succesful-div .bottom-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.succesful-div .top-div{
+    background-color: #8bc34a;
+}
+.succesful-div .bottom-div{
+    background-color: #ffffff;
+    flex-direction: column;
+    color: #9c9c9c;
+    font-size: 1.2em;
+}
+.succesful-div .bottom-div span{
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: grey;
+}
+.succesful-div .bottom-div .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-size: 1.2em;
+    background-color: #8bc34a;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.succesful-div .bottom-div .button a{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+@media (max-width:600px){
+    .form-container{
+        margin-top: 200px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) and (max-width:1300px) {
+    /* For tablets: */
+    .form-container{
+        margin-top: 200px;
+        width: 100%;
+    }
+}
